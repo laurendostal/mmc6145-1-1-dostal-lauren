@@ -53,6 +53,7 @@ header , .footer {
 .headshot {
   border-radius: 50%;
 }
+
 .name-header {
   color: black;
   font-size: 35px;
@@ -83,6 +84,7 @@ header , .footer {
   font-size: 1rem;
   cursor: pointer;
   border-radius: 30px;
+  
 }
 
 .button a {
@@ -126,7 +128,6 @@ h3 {
   padding-bottom: 30px;
 }
 
-
 /* About */
 .about-div {
   margin-top: 30px;
@@ -137,10 +138,12 @@ h3 {
   padding-bottom: 150px;
 }
 
+.about-h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .graduation-headshot {
-  border: rgb(235, 160, 160);
-  border-width:5px;
-  border-style:solid;
   border-radius: 50%;
 }
 
@@ -157,10 +160,6 @@ h3 {
   border-radius: 10px;
 }
 
-.bio .button {
-  color: red;
-}
-
 /*Contact*/
 .contact-div {
   margin-top: 30px;
@@ -168,9 +167,140 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 425px;
+  padding-bottom: 250px;
 }
 
 .contact-info {
   background-color: white;
+  padding: 30px;
+  border-width:3px;
+  border-style:solid;
+  border-color:rgb(235, 160, 160);
+  border-radius: 10px;
+}
+
+.icon {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+/*Media queries*/
+@media screen and (max-width: 700px) {
+  .logo {
+    font-size: 40px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 35px;
+  }
+
+  header a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .nav-links {
+    font-size: 23px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+
+  .hero {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+  .job-title {
+    padding-bottom: 10px;
+  }
+
+/*Home*/
+  .projects-div {
+    font-size: 20px;
+  }
+  
+  .project1 , .project2 {
+    max-width: 400px;
+  }
+  
+  .project {
+    padding-bottom: 30px;
+  }
+
+  .projects-div img {
+    width: 350px;
+    height: auto;
+  }
+
+/*About*/
+  .graduation-headshot {
+    width: 300px;
+    height: auto;
+  }
+
+  .about-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 45px;
+  }
+
+  .bio {
+    padding: 30px;
+    font-size: 20px;
+    max-width: 400px;
+  }
+
+  .button {
+    padding: 15px 30px;
+    background-color: rgb(245, 235, 207);
+    border: solid 2px rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    
+  }
+
+/*Contact*/
+  h3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 45px;
+  }
+
+  .contact-div {
+    padding-bottom: 215px;
+  }
+
+  .contact-info {
+    padding: 30px;
+    font-size: 20px;
+    max-width: 400px;
+  }
+  
+  .icon-img {
+    height: 80px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .bio {
+    padding-bottom: 40px;
+  }
+
+  .project {
+    padding-bottom: 30px;
+  }
+
+  .contact-div {
+    padding-bottom: 500px;
+  }
 }

@@ -4,7 +4,7 @@ export default function Header() {
     return(
         <header>
             <Link to="/" className="logo">Lauren Dostal</Link>
-            <div>
+            <div className="nav-links">
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
             </div>
