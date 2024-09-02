@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function About() {
   return (
     <div className="about-div">
-      <img className="graduation-headshot" src="public/gradheadshot.png" alt="Headshot of woman in a cap and gown" width="400"></img>
+      <img className="graduation-headshot" src="/gradheadshot.png" alt="Headshot of woman in a cap and gown" width="400"></img>
       <h3 className="about-h3">About Me</h3>
       <div className="bio">
         <p>Hello, I’m Lauren!  I am currently a student at the University of Florida getting my master’s degree in Web Design and Online Communication.  I specialize in website design and frontend development.  My goal is to help people express their thoughts, ideas, and messages through design that is both aesthetically pleasing and highly functional.

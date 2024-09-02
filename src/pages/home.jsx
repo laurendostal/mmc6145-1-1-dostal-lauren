@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <div className="hero">
-        <img className="headshot" src="public/headshot.png" alt="Headshot of woman" width="250"></img>
+        <img className="headshot" src="/headshot.png" alt="Headshot of woman" width="250"></img>
         <h1 className="name-header">Lauren Dostal</h1>
         <h2 className="job-title">Web Designer • Frontend Developer • Graphic Designer</h2>
         <button type="submit" className="button">
