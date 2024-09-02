@@ -20,11 +20,11 @@ export default function Home() {
         <h3>My Projects</h3>
         <div className="project1">
           <Project project={project1}/>
-            <img src="public/currencycalculatorsite.jpeg" alt="Screenshot of Currency Calculator website" width="700"></img>
+            <img src="/currencycalculatorsite.jpeg" alt="Screenshot of Currency Calculator website" width="700"></img>
           </div>
         <div className="project2">
           <Project project={project2}/>
-            <img src="public/runjournalsite.jpeg" alt="Screenshot of Run Journal website" width="700"></img>
+            <img src="/runjournalsite.jpeg" alt="Screenshot of Run Journal website" width="700"></img>
         </div>
       </div>
     </main>
